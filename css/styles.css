@@ -1,0 +1,158 @@
+:root{
+    --psevdo-color: #2196F3
+}
+:root{
+    --black-color:#000000
+}
+:root{
+    --white-color:#ffffff
+}
+:root{
+    --inform-color:#757575
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+footer{
+    background: #2F303A;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+span{
+    color: var(--psevdo-color)
+}
+
+.logo{
+    font-family: 'Raleway', sans-serif;
+    color: var(--black-color);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+}
+.nav:hover,
+.nav:focus{
+   color: var(--psevdo-color);
+}
+.nav{
+    color: var(--black-color);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+}
+.contact-header{
+    color: var(--inform-color);
+}
+.nav-button:hover,
+.nav-button:focus{
+    background-color: var(--psevdo-color);
+    color: var(--white-color);
+}
+.nav-button{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.adress{
+    color: var(--white-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+
+}
+.h-li{
+    font-weight: 700;
+    color: var(--black-color);
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.p-li{
+    font-size: 400;
+    color: var(--inform-color);
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 0.03em;
+}
+.contact-footer{
+    color: var(--inform-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+.header-main{
+    width: 1600px;
+    height: 600px;
+    text-align: center;
+    background: #2F303A;
+}
+h1{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1,3;
+    color: var(--white-color);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+.button-order{
+    width: 216px;
+    height: 50px;
+    left: 692px;
+    top: 430px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    letter-spacing: 0.06em;
+}
+.button-order:hover,
+.button-orader:focus{
+    background-color: var(--psevdo-color) ;
+    color: var(--white-color);
+}
+.h3-delta{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.p-delta{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    color: var(--inform-color);
+}
+.header2{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.h3-alfa{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.p-alfa{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color: var(--inform-color);
+}
