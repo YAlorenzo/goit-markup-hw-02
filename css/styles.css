@@ -1,22 +1,23 @@
 :root{
-    --psevdo-color: #2196F3
+
+    --psevdo-color: #2196F3;
+
+    --black-color:#000000;
+
+    --white-color:#ffffff;
+
+    --inform-color:#757575;
+
+    --bg-color:#2F303A;
 }
-:root{
-    --black-color:#000000
-}
-:root{
-    --white-color:#ffffff
-}
-:root{
-    --inform-color:#757575
-}
+
 
 body{
     font-family: 'Roboto', sans-serif;
 
 }
 footer{
-    background: #2F303A;
+    background: var(--bg-color)
 }
 a{
     text-decoration: none;
@@ -36,6 +37,7 @@ span{
     line-height: 31px;
     letter-spacing: 0.03em;
 }
+
 .nav:hover,
 .nav:focus{
    color: var(--psevdo-color);
@@ -47,6 +49,10 @@ span{
     line-height: 1.1;
     letter-spacing: 0.02em;
 }
+.currnet{
+    color: var(--psevdo-color);
+}
+
 .contact-header{
     color: var(--inform-color);
 }
@@ -98,28 +104,32 @@ span{
     text-align: center;
     background: #2F303A;
 }
-h1{
+.hero-title{
     font-weight: 900;
     font-size: 44px;
-    line-height: 1,3;
+    line-height: 1.3;
     color: var(--white-color);
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
 .button-order{
-    width: 216px;
+    /* width: 216px;
     height: 50px;
     left: 692px;
-    top: 430px;
+    top: 430px; */
     font-weight: 700;
     font-size: 16px;
     line-height: 1.8;
     letter-spacing: 0.06em;
+    background-color: var(--psevdo-color);
+    color: var(--white-color);
+    font-family: inherit;
+
 }
 .button-order:hover,
 .button-orader:focus{
-    background-color: var(--psevdo-color) ;
-    color: var(--white-color);
+    background-color: var(--white-color) ;
+    color: var(--black-color);
 }
 .h3-delta{
     font-weight: 700;
@@ -156,3 +166,22 @@ h1{
     letter-spacing: 0.03em;
     color: var(--inform-color);
 }
+.team-section{
+    background-color: #F5F4FA;;
+}
+.main-portfolio{
+    background: #F5F5F5;;
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
