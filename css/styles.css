@@ -1,19 +1,22 @@
 :root{
 
     --psevdo-color: #2196F3;
-
     --black-color:#000000;
-
     --white-color:#ffffff;
-
     --inform-color:#757575;
-
     --bg-color:#2F303A;
+    --head-color:#212121;
+    --bgwhite-color:#F5F4FA;
 }
 
 
 body{
     font-family: 'Roboto', sans-serif;
+    background-color: var(--white-color);
+    color: var(--head-color);
+    font-size: 14px;
+    letter-spacing: 0.03em;
+
 
 }
 footer{
@@ -29,13 +32,22 @@ span{
     color: var(--psevdo-color)
 }
 
-.logo{
+.logo-header{
     font-family: 'Raleway', sans-serif;
     color: var(--black-color);
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
+}
+.logo-footer{
+    font-family: 'Raleway', sans-serif;
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+
 }
 
 .nav:hover,
@@ -67,6 +79,10 @@ span{
     line-height: 1.6;
     text-align: center;
     letter-spacing: 0.03em;
+    cursor: pointer;
+    font-family: inherit;
+    color: var(--head-color);
+    background-color: var(--bgwhite-color);
 }
 
 .adress{
@@ -99,10 +115,10 @@ span{
     letter-spacing: 0.03em;
 }
 .header-main{
-    width: 1600px;
-    height: 600px;
+    /* width: 1600px;
+    height: 600px; */
     text-align: center;
-    background: #2F303A;
+    background: var(--bg-color);
 }
 .hero-title{
     font-weight: 900;
@@ -124,6 +140,7 @@ span{
     background-color: var(--psevdo-color);
     color: var(--white-color);
     font-family: inherit;
+    cursor: pointer;
 
 }
 .button-order:hover,
@@ -136,7 +153,7 @@ span{
     font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--head-color);
 }
 .p-delta{
     font-weight: 400;
@@ -150,14 +167,14 @@ span{
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--head-color);
 }
 .h3-alfa{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
     letter-spacing: 0.03em;
-    color: #212121;
+    color: var(--head-color);
 }
 .p-alfa{
     font-weight: 400;
@@ -167,11 +184,9 @@ span{
     color: var(--inform-color);
 }
 .team-section{
-    background-color: #F5F4FA;;
+    background-color: var(--bgwhite-color);
 }
-.main-portfolio{
-    background: #F5F5F5;;
-}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
